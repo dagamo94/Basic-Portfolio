@@ -8,6 +8,8 @@
     content: "";
     display: block;
 }
+
+
 body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -53,6 +55,7 @@ img{
 a{
     color: #777777; 
     padding: 20px;
+    text-decoration: none;
 }
 
 #contact{
@@ -94,37 +97,65 @@ p{
 #img2{
     position: relative;
     margin: 0 15px 15px 0;
-    width: 20%;
+    width: 200px;
     float: left;
 }
 #img3{
     position: relative;
-    margin: 0 15px 15px 15px;
-    width: 20%;
+    margin: 0 15px 15px 0px;
+    width: 200px;
     float: left;
 }
 #img4{
     position: relative;
-    margin: 0 15px 15px 15px;
-    width: 20%;
+    margin: 0 15px 15px 0px;
+    width: 200px;
     float: left;
 }
 #img5{
     position: relative;
     margin: 0 15px 15px 0;
-    width: 20%;
+    width: 200px;
     float: left;
 }
 .child{
     position: absolute;
     color: #ffffff;
-    bottom: 20px;
+    bottom: 5px;
     text-align: center;
     background: #4aaaa5;
     padding: 10px;
     width: 200px;
 }
 /* Portfolio Details End */
+
+
+/* Contact Page Details */
+
+.small{
+    width: 100%;
+    margin: 5px 0 15px;
+}
+
+#message{
+    width: 100%;
+    height: 300px;
+}
+
+#submitbutton{
+    margin-top: 30px;
+    background: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 8px 20px;
+}
+/* Contact Page DEtails End */
+
+
+a:link { color: #777777; text-decoration: none}
+a:visited { color: #777777; text-decoration: none}
+a:hover { color: #3366CC; text-decoration: none}
+a:active { color: #777777; text-decoration: none}
 
 footer{
     position: fixed;
