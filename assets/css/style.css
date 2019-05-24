@@ -15,7 +15,6 @@ body{
     color: #777777;
     background-image: url('../images/papyrus.png');
     margin: 0;
-
 }
 
 header{
@@ -33,7 +32,7 @@ img{
     width: 200px;
     height: 200px;
     float: left;
-    margin: 0 15px 0px 0;
+    margin: 0 10px 0px 0;
 }
 
 .title{
@@ -54,12 +53,12 @@ img{
 
 a{
     color: #777777; 
-    padding: 20px;
+    margin: 20px;
     text-decoration: none;
 }
 
 #contact{
-    padding-right: 0;
+    margin-right: 0;
 }
 
 h1{
@@ -154,7 +153,7 @@ p{
 
 a:link { color: #777777; text-decoration: none}
 a:visited { color: #777777; text-decoration: none}
-a:hover { color: #3366CC; text-decoration: none}
+a:hover { color: #4aaaa5; text-decoration: none}
 a:active { color: #777777; text-decoration: none}
 
 footer{
@@ -164,6 +163,7 @@ footer{
     color: #f0f0f0;
     border-top: 6px solid #4aaaa5;
     padding-top: 40px;
+    padding-bottom: 5px;
     font-size: 12px;
     width: 100%;
     text-align: center;
