@@ -31,7 +31,7 @@ img{
     width: 200px;
     height: 200px;
     float: left;
-    margin-right: 20px;
+    margin: 0 15px 0px 0;
 }
 
 .title{
@@ -67,7 +67,7 @@ h1{
 }
 
 p{
-
+    /* margin: 0; */
 }
 
 .container{
@@ -80,7 +80,51 @@ p{
 /* .main{
     padding:20px;
 } */
+#top{
+    margin-top: 0;
+}
 
+/* Portfolio Details Below*/
+#img1{
+    position: relative;
+    margin: 0 15px 15px 0;
+    width: 200px;
+    float: none;
+}
+#img2{
+    position: relative;
+    margin-bottom: 15px;
+    width: 20%;
+    float: none;
+}
+#img3{
+    position: relative;
+    margin-bottom: 15px;
+    width: 20%;
+    float: none;
+}
+#img4{
+    position: relative;
+    margin-bottom: 15px;
+    width: 20%;
+    float: none;
+}
+#img5{
+    position: relative;
+    margin-bottom: 15px;
+    width: 20%;
+    float: none;
+}
+.child{
+    position: absolute;
+    color: #ffffff;
+    bottom: 20px;
+    text-align: center;
+    background: #4aaaa5;
+    padding: 10px;
+    width: 200px;
+}
+/* Portfolio Details End */
 
 footer{
     position: fixed;
