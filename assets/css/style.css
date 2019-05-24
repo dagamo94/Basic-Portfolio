@@ -89,31 +89,31 @@ p{
     position: relative;
     margin: 0 15px 15px 0;
     width: 200px;
-    float: none;
+    float: left;    
 }
 #img2{
     position: relative;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 0;
     width: 20%;
-    float: none;
+    float: left;
 }
 #img3{
     position: relative;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 15px;
     width: 20%;
-    float: none;
+    float: left;
 }
 #img4{
     position: relative;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 15px;
     width: 20%;
-    float: none;
+    float: left;
 }
 #img5{
     position: relative;
-    margin-bottom: 15px;
+    margin: 0 15px 15px 0;
     width: 20%;
-    float: none;
+    float: left;
 }
 .child{
     position: absolute;
